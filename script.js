@@ -32,6 +32,7 @@ function reloj(){
             viernes = new Date((today.getMonth()+1) + "/" + (today.getDate()+7) + "/" + today.getFullYear());
             document.querySelector("img").setAttribute("src", "https://i.pinimg.com/564x/08/64/0b/08640b34412b64c5be6d0296bc6192cd.jpg");
             frase = "IT´S FRIDAY THEN!";
+            document.querySelector("audio").play();
             break;
         case "sábado":
             viernes = new Date((today.getMonth()+1) + "/" + (today.getDate()+6) + "/" + today.getFullYear());
@@ -61,9 +62,6 @@ function reloj(){
     document.querySelector(".reloj").innerHTML = (palabra + diffDays + " días, " + diffHrs + " horas, " + diffMins + " minutos y " + diffSecs +" segundos para el viernes.");
     document.querySelector(".p").innerHTML = (frase);
     setTimeout(reloj, 1000);
+
 }
 
-function calculo(){
-
-    
-}
