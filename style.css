@@ -1,0 +1,30 @@
+.reloj {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 40px;
+    display: block; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 25px 50px 25px;
+}
+
+img {
+    height: 300px;
+    width: 350px;
+    margin: auto;
+}
