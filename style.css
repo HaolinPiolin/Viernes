@@ -28,3 +28,19 @@ img {
     width: 350px;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 25px 50px 25px;
+    }
+
+    img {
+        height: 150px;
+        width: 200px;
+        margin: auto;
+    }
+  }
